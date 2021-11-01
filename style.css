@@ -325,8 +325,8 @@ section .title::after{
 }
 .skills .skill-content .card .box{
     transition: all 0.3s ease;
-    width: calc(25% - 10px);
-    height: calc(300px - 20px);
+    width: calc(100%);
+    height: calc(100px - 20px);
     padding: 10px 10px 10px 10px;
     text-align: center;
 }
