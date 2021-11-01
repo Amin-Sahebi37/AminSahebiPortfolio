@@ -311,11 +311,11 @@ section .title::after{
 }
 .skills .skill-content .card{
     display: inline-flex;
-    width: calc(25% - 20px);
-    height: calc(300px - 20px);
+    width: calc(250px - 20px);
+    height: calc(250px - 20px);
     background: #222;
     border-radius: 6px 6px 6px 6px;
-    margin: 5px 5px 5px 5px;
+    margin: 15px 15px 15px 15px;
     cursor: pointer;
     text-align: center;
     transition: all 0.4s ease;
@@ -324,9 +324,9 @@ section .title::after{
     background: rgb(91, 106, 241);
 }
 .skills .skill-content .card .box{
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     width: calc(100%);
-    height: calc(100px - 20px);
+    height: calc(100%);
     padding: 10px 10px 10px 10px;
     text-align: center;
 }
