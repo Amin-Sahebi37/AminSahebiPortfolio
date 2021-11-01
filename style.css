@@ -311,11 +311,11 @@ section .title::after{
 }
 .skills .skill-content .card{
     display: inline-flex;
-    width: calc(250px - 20px);
-    height: calc(250px - 20px);
+    width: calc(25% - 20px);
+    height: calc(300px - 20px);
     background: #222;
     border-radius: 6px 6px 6px 6px;
-    margin: 15px 15px 15px 15px;
+    margin: 5px 5px 5px 5px;
     cursor: pointer;
     text-align: center;
     transition: all 0.4s ease;
