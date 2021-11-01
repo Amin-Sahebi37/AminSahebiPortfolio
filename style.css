@@ -85,6 +85,7 @@ section .title::after{
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+    float: right;
 }
 .navbar.sticky{
     padding: 15px 0;
@@ -110,6 +111,7 @@ section .title::after{
 .navbar .menu li{
     list-style: none;
     display: inline-block;
+
 }
 .navbar .menu li a{
     display: block;
@@ -165,13 +167,16 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/banner.jpg") ;
     height: 100vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+
 }
 .home .max-width{
   width: 100%;
@@ -350,9 +355,10 @@ section .title::after{
 }
 .skills .skill-content .card p{
     text-align: center;
-    
+    }
 
-}
+
+
 
 
 /* contact section styling */
